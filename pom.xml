@@ -20,7 +20,7 @@
     <properties>
         <java.version>1.8</java.version>
         <junit.version>4.12</junit.version>
-        <spring.version>5.2.10.RELEASE</spring.version>
+        <spring.version>5.2.2.RELEASE</spring.version>
         <pagehelper.version>4.1.4</pagehelper.version>
         <servlet-api.version>2.5</servlet-api.version>
         <dubbo.version>2.6.0</dubbo.version>
@@ -36,6 +36,7 @@
         <poi.version>3.14</poi.version>
         <jedis.version>2.9.0</jedis.version>
         <quartz.version>2.3.2</quartz.version>
+        <lombok.version>1.18.24</lombok.version>
     </properties>
 
     <!-- 依赖管理标签-->
@@ -70,22 +71,22 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-jdbc</artifactId>
-                <version>${spring.version}</version>
+                <version>5.1.18.RELEASE</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-aspects</artifactId>
-                <version>${spring.version}</version>
+                <version>5.0.5.RELEASE</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-jms</artifactId>
-                <version>${spring.version}</version>
+                <version>5.0.5.RELEASE</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context-support</artifactId>
-                <version>${spring.version}</version>
+                <version>5.1.18.RELEASE</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
@@ -202,6 +203,11 @@
                 <groupId>redis.clients</groupId>
                 <artifactId>jedis</artifactId>
                 <version>${jedis.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
             </dependency>
             <!-- 安全框架 -->
             <dependency>
