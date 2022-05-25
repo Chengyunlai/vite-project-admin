@@ -13,6 +13,7 @@
         <module>dao</module>
         <module>service</module>
         <module>web</module>
+        <module>config</module>
     </modules>
     <!--指定父工程的打包方式-->
     <packaging>pom</packaging>
