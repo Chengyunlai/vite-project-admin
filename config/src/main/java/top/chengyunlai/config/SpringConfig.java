@@ -14,7 +14,7 @@ import org.springframework.context.annotation.PropertySource;
  **/
 @Configuration
 @ComponentScan("top.chengyunlai")
-@PropertySource({"druid.properties"})
+@PropertySource({"classpath:druid.properties"})
 @Import({DruidDataSourceConfig.class,MybatisConfig.class})
 public class SpringConfig {
 

@@ -1,4 +1,4 @@
-package top.chengyunlai.web;
+package top.chengyunlai;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
